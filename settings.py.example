@@ -4,4 +4,5 @@
 # 2015-04-02 <felicity@torchbox.com>
 #
 
+DEBUG = False
 NGX_CACHE_DIR='/var/lib/nginx/cache'

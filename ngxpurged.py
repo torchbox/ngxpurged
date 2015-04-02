@@ -46,4 +46,4 @@ def purge(path):
     return text_response("Purged <%s>, %d deleted, %d errors.\n" % (path, deleted, errs))
     
 if __name__ == "__main__":
-    app.run(debug = True)
+    app.run(debug = settings.DEBUG)
