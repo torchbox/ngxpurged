@@ -1,0 +1,7 @@
+# vim:sw=4 ts=4 et:
+#
+# Copyright (c) 2015 Torchbox Ltd.
+# 2015-04-02 <felicity@torchbox.com>
+#
+
+NGX_CACHE_DIR='/var/lib/nginx/cache'
