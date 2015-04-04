@@ -35,7 +35,7 @@ def do_purge(path):
 def main():
     return text_response("Ready.\n")
 
-@app.route("/purge/<path:path>")
+@app.route("/purge/<path:path>", methods=[ 'POST' ])
 def purge(path):
     if "/" in path or path[0] == '.':
         return text_response("Path may not contain '/', '.' or '..'.\n")
